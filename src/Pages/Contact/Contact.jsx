@@ -5,7 +5,7 @@ const Contact = () => {
     <>
       {/* Title & description */}
       <div className="text-center mt-22 md:mt-14 px-4 md:px-0 mb-10">
-        <h1 className="text-2xl md:text-4xl font-bold mb-3 text-blue-500">
+        <h1 className="text-2xl md:text-4xl font-bold mb-3 text-blue-600">
           Contact Me
         </h1>
         <p className="">
@@ -45,7 +45,7 @@ const Contact = () => {
           ></textarea>
         </div>
         {/* Button */}
-        <button className="border rounded-lg py-2 w-full bg-blue-500 text-white font-semibold hover:bg-blue-100 hover:border-blue-300 hover:text-blue-500 cursor-pointer mb-10">
+        <button className="border rounded-lg py-2 w-full bg-blue-600 text-white font-semibold hover:bg-blue-100 hover:border-blue-300 hover:text-blue-600 cursor-pointer mb-10">
           Send
         </button>
       </div>
