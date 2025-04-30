@@ -1,5 +1,10 @@
 import React from "react";
 import { NavLink } from "react-router";
+import { FaFacebook } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaWhatsappSquare } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
 
 const Footer = () => {
   const links = (
@@ -10,19 +15,42 @@ const Footer = () => {
     </>
   );
   return (
-    <div className="bg-amber-50 py-20 border border-x-0 border-b-0 border-t-amber-200">
-      <div className="flex justify-between px-20">
-        <div>
-          <h1 className="text-2xl font-bold">A.Rahman</h1>
+    <div className="bg-blue-100 py-10 border border-x-0 border-b-0 border-t-blue-300">
+      <div className="flex-col md:flex-row  md:justify-between px-4 md:px-10 space-y-4">
+        {/* Name */}
+        <div className="">
+          <h1 className="text-2xl font-bold text-blue-500 text-center">
+            MD Abdur Rahman
+          </h1>
         </div>
-        <div className="flex flex-col">
-          <span className="text-lg font-semibold">Links</span>
-          {links}
+        {/* Social Icons */}
+        <div className="flex gap-3 text-2xl justify-center">
+          <a className="hover:text-blue-500" href="https://www.facebook.com/">
+            <FaFacebook />
+          </a>
+
+          <a className="hover:text-blue-500" href="https://www.linkedin.com/">
+            <FaLinkedin />
+          </a>
+
+          <a className="hover:text-blue-500" href="https://x.com/">
+            <FaXTwitter />
+          </a>
+
+          <a className="hover:text-blue-500" href="https://www.whatsapp.com/">
+            <FaWhatsappSquare />
+          </a>
+
+          <a className="hover:text-blue-500" href="https://www.instagram.com/">
+            <FaInstagramSquare />
+          </a>
         </div>
-        <div>
-          <button className="font-bold text-lg border px-6 py-2 rounded-lg bg-amber-500 text-white">
-            Button
-          </button>
+        <hr className="border-dashed text-blue-300" />
+
+        {/* Copy Right */}
+        <div class="text-center text-sm">
+          &copy; 2025 <span class="font-semibold">MD Abdur Rahman</span>. All
+          rights reserved.
         </div>
       </div>
     </div>
