@@ -4,8 +4,10 @@ const Contact = () => {
   return (
     <>
       {/* Title & description */}
-      <div className="text-center mt-14 px-4 md:px-0 mb-10">
-        <h1 className="text-4xl font-bold mb-3">Contact Me</h1>
+      <div className="text-center mt-22 md:mt-14 px-4 md:px-0 mb-10">
+        <h1 className="text-2xl md:text-4xl font-bold mb-3 text-blue-500">
+          Contact Me
+        </h1>
         <p className="">
           consectetur adipisicing elit. Ut vitae eos aliquam quo voluptates
           magni! Amet, itaque minus! .
@@ -13,7 +15,7 @@ const Contact = () => {
       </div>
 
       {/* Name */}
-      <div className="mb-20 px-4">
+      <div className="px-4 md:px-0 mb-10 md:mb-0">
         <div className="mb-3">
           <p className="font-semibold ">Your Name</p>
           <input
@@ -43,7 +45,7 @@ const Contact = () => {
           ></textarea>
         </div>
         {/* Button */}
-        <button className="border rounded-lg py-2 w-full bg-blue-500 text-white font-semibold hover:bg-blue-100 hover:border-blue-300 hover:text-blue-500 cursor-pointer">
+        <button className="border rounded-lg py-2 w-full bg-blue-500 text-white font-semibold hover:bg-blue-100 hover:border-blue-300 hover:text-blue-500 cursor-pointer mb-10">
           Send
         </button>
       </div>

@@ -7,24 +7,17 @@ import { FaWhatsappSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 
 const Footer = () => {
-  const links = (
-    <>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/about">About</NavLink>
-      <NavLink to="/contact">Contact</NavLink>
-    </>
-  );
   return (
     <div className="bg-blue-100 py-10 border border-x-0 border-b-0 border-t-blue-300">
       <div className="flex-col md:flex-row  md:justify-between px-4 md:px-10 space-y-4">
         {/* Name */}
         <div className="">
-          <h1 className="text-2xl font-bold text-blue-500 text-center">
+          <h1 className="text-2xl md:text-4xl font-bold text-blue-500 text-center">
             MD Abdur Rahman
           </h1>
         </div>
         {/* Social Icons */}
-        <div className="flex gap-3 text-2xl justify-center">
+        <div className="flex gap-3 text-2xl md:text-4xl justify-center">
           <a className="hover:text-blue-500" href="https://www.facebook.com/">
             <FaFacebook />
           </a>
