@@ -12,29 +12,29 @@ const Footer = () => {
       <div className="flex-col md:flex-row  md:justify-between px-4 md:px-10 space-y-4">
         {/* Name */}
         <div className="">
-          <h1 className="text-2xl md:text-4xl font-bold text-blue-600 text-center">
+          <h1 className="text-2xl md:text-4xl font-bold text-[#01687a] text-center">
             MD Abdur Rahman
           </h1>
         </div>
         {/* Social Icons */}
         <div className="flex gap-3 text-2xl md:text-4xl justify-center">
-          <a className="hover:text-blue-600" href="https://www.facebook.com/">
+          <a className="hover:text-[#01687a]" href="https://www.facebook.com/">
             <FaFacebook />
           </a>
 
-          <a className="hover:text-blue-600" href="https://www.linkedin.com/">
+          <a className="hover:text-[#01687a]" href="https://www.linkedin.com/">
             <FaLinkedin />
           </a>
 
-          <a className="hover:text-blue-600" href="https://x.com/">
+          <a className="hover:text-[#01687a]" href="https://x.com/">
             <FaXTwitter />
           </a>
 
-          <a className="hover:text-blue-600" href="https://www.whatsapp.com/">
+          <a className="hover:text-[#01687a]" href="https://www.whatsapp.com/">
             <FaWhatsappSquare />
           </a>
 
-          <a className="hover:text-blue-600" href="https://www.instagram.com/">
+          <a className="hover:text-[#01687a]" href="https://www.instagram.com/">
             <FaInstagramSquare />
           </a>
         </div>

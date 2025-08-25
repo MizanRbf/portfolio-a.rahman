@@ -3,11 +3,11 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <h1 className="text-2xl md:text-4xl font-bold mb-3 text-blue-600 text-center mt-20">
+      <h1 className="text-2xl md:text-4xl font-bold mb-3 text-[#01687a] text-center mt-20">
         About Me
       </h1>
 
-      <div className="bg-blue-100 mx-4 md:mx-0 px-4 rounded-lg border border-blue-300 ">
+      <div className="bg-blue-100 mx-4 md:mx-0 px-4 rounded-lg border border-blue-300 flex-col md:flex-row justify-between">
         <p className="py-10">
           I'm Md Abdur Raman, a dedicated Performance Marketing & Tracking
           Specialist with a sharp focus on driving measurable growth through
@@ -25,6 +25,7 @@ const About = () => {
           elevate your marketing with performance-backed strategies and reliable
           analytics, you're in the right place.
         </p>
+        <img className="w-[400px] h-[600pxn]" src="/assets/about.png" alt="" />
       </div>
     </>
   );

@@ -1,20 +1,17 @@
 import { createBrowserRouter } from "react-router";
-import Root from "../Pages/Root/Root";
-import ErrorPage from "../Pages/ErrorPage/ErrorPage";
-import Home from "../Pages/Home/Home";
-import About from "../Pages/About/About";
-import Contact from "../Pages/Contact/Contact";
+import RootLayout from "../Layouts/RootLayout";
+import HomePage from "../Pages/Home/HomePage";
+import About from "../Pages/Home/About/About";
+import Contact from "../Pages/Home/Contact/Contact";
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    Component: Root,
-    errorElement: <ErrorPage></ErrorPage>,
-    // hydrateFallbackElement:
+    Component: RootLayout,
     children: [
       {
         index: true,
-        Component: Home,
+        Component: HomePage,
       },
       {
         path: "about",
