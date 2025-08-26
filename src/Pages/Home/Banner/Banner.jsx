@@ -14,9 +14,9 @@ const Banner = () => {
         {/* Title */}
         <div className="flex justify-center items-center gap-4">
           <h1 className="text-2xl md:text-4xl font-bold">
-            I'm <span className="text-[#01687a]">A.Rahman</span>
+            I'm <span className="text-[#023ca8]">A.Rahman</span>
           </h1>
-          <MdWavingHand size={30} className="text-[#01687a]" />
+          <MdWavingHand size={30} className="text-[#023ca8]" />
         </div>
         <p className="text-xl md:text-2xl font-semibold mt-4">
           A Brand & Marketing Specialist

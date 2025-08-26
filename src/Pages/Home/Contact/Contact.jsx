@@ -5,7 +5,7 @@ const Contact = () => {
     <>
       {/* Title & description */}
       <div className="text-center mt-22 md:mt-14 px-4 md:px-0 mb-10">
-        <h1 className="text-2xl md:text-4xl font-bold mb-3 text-[#01687a]">
+        <h1 className="text-2xl md:text-4xl font-bold mb-3 text-[#023ca8]">
           Contact Me
         </h1>
         <p className="">
@@ -19,7 +19,7 @@ const Contact = () => {
         <div className="mb-3">
           <p className="font-semibold ">Your Name</p>
           <input
-            className="border rounded-lg py-2 w-full pl-4  border-[#01687a]"
+            className="border rounded-lg py-2 w-full pl-4  border-[#023ca8]"
             type="text"
             name="name"
             placeholder="Write your name here.."
@@ -29,7 +29,7 @@ const Contact = () => {
         <div className="mb-3">
           <p className="font-semibold ">Your Email</p>
           <input
-            className="border rounded-lg py-2 w-full pl-4  border-[#01687a]"
+            className="border rounded-lg py-2 w-full pl-4  border-[#023ca8]"
             type="email"
             name="email"
             placeholder="Write your email here.."
@@ -45,7 +45,7 @@ const Contact = () => {
           ></textarea>
         </div>
         {/* Button */}
-        <button className="border rounded-lg py-2 w-full bg-[#01687a] text-white font-semibold hover:bg-[#003a44] hover:border-blue-300  cursor-pointer mb-10">
+        <button className="border rounded-lg py-2 w-full bg-[#023ca8] text-white font-semibold hover:bg-[#003a44] hover:border-blue-300  cursor-pointer mb-10">
           Send
         </button>
       </div>

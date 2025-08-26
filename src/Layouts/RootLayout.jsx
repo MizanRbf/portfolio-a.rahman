@@ -7,7 +7,7 @@ import Banner from "../Pages/Home/Banner/Banner";
 
 const RootLayout = () => {
   return (
-    <div>
+    <div className="">
       <div className="">
         <Navbar></Navbar>
         <Banner></Banner>
