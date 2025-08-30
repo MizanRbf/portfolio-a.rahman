@@ -7,7 +7,7 @@ const About = () => {
         About Me
       </h1>
 
-      <div className="bg-blue-100 mx-4 md:mx-0 px-4 rounded-lg border border-blue-300 flex-col md:flex-row justify-between">
+      <div className="bg-blue-100 px-4 rounded-lg border border-blue-300 flex-col md:flex-row justify-between">
         <p className="py-10">
           I'm Md Abdur Raman, a dedicated Performance Marketing & Tracking
           Specialist with a sharp focus on driving measurable growth through

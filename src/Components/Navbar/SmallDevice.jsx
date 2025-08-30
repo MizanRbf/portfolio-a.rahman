@@ -1,6 +1,6 @@
 import React from "react";
 
-const SmallDevice = ({ setOpen }) => {
+const SmallDevice = ({ setOpen, open }) => {
   return (
     <nav
       className={`top-18 lg:hidden right-0 left-0 absolute py-6 shadow bg-[rgba(0,0,0,0.81)]  text-lg font-bold text-white transform transition-all ease-in-out duration-300 z-50 ${

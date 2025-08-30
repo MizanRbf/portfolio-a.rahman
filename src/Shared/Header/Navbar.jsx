@@ -1,7 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { FaDownload } from "react-icons/fa";
-import { MdMenu } from "react-icons/md";
-import { RxCross2 } from "react-icons/rx";
 import LargeDevice from "../../Components/Navbar/LargeDevice";
 import ResponsiveIcon from "../../Components/Navbar/ResponsiveIcon";
 import SmallDevice from "../../Components/Navbar/SmallDevice";
@@ -48,9 +45,9 @@ const Navbar = () => {
         <LargeDevice></LargeDevice>
 
         {/* Responsive Icon */}
-        <ResponsiveIcon setOpen={setOpen}></ResponsiveIcon>
+        <ResponsiveIcon setOpen={setOpen} open={open}></ResponsiveIcon>
         {/* Menubar for Small Device */}
-        <SmallDevice setOpen={setOpen}></SmallDevice>
+        <SmallDevice setOpen={setOpen} open={open}></SmallDevice>
       </div>
     </div>
   );

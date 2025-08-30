@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <>
       {/* Title & description */}
-      <div className="text-center mt-22 md:mt-14 px-4 md:px-0 mb-10">
+      <div className="text-center mt-22 md:mt-14 mb-10">
         <h1 className="text-2xl md:text-4xl font-bold mb-3 text-[#023ca8]">
           Contact Me
         </h1>
@@ -15,7 +15,7 @@ const Contact = () => {
       </div>
 
       {/* Name */}
-      <div className="px-4 md:px-0 mb-10 md:mb-0">
+      <div className="md:px-0 mb-10 md:mb-0">
         <div className="mb-3">
           <p className="font-semibold ">Your Name</p>
           <input
