@@ -8,13 +8,9 @@ import Banner from "../Pages/Home/Banner/Banner";
 const RootLayout = () => {
   return (
     <div className="">
-      <div className="">
-        <Navbar></Navbar>
-        <Banner></Banner>
-        <div className="max-w-[1300px] mx-auto px-4">
-          <Outlet></Outlet>
-        </div>
-      </div>
+      <Navbar></Navbar>
+      <Banner></Banner>
+      <Outlet></Outlet>
       <Footer></Footer>
     </div>
   );

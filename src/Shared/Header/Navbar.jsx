@@ -34,8 +34,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <img className="w-14" src="/assets/logo.png" alt="" />
             <p className="text-4xl font-bold text-primary">
-              Abdu
-              <span className="text-white">r</span>
+              A<span className="text-white">.</span>
               Rahman
             </p>
           </div>

@@ -2,23 +2,21 @@ import React from "react";
 import { MdWavingHand } from "react-icons/md";
 const Banner = () => {
   return (
-    <div className="mt-25 pt-2 relative z-1">
+    <div className="mt-18 pt-10 relative z-1 bg-gradient-to-b from-[#092d55] to-[#000000]">
       {/* Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-200 to-transparent"></div>
+      <div className="absolute inset-0 "></div>
 
       {/* Content */}
       <div className="text-center mb-10">
-        <span className="bg-blue-500 text-white px-3 rounded-xs">
-          Assalamu Alaikum !
-        </span>
+        <span className="bg-white  px-3 rounded-xs ">Assalamu Alaikum !</span>
         {/* Title */}
         <div className="flex justify-center items-center gap-4">
-          <h1 className="text-2xl md:text-4xl font-bold">
-            I'm <span className="text-[#023ca8]">A.Rahman</span>
+          <h1 className="text-2xl md:text-4xl font-bold text-white">
+            I'm <span className="text-primary">A.Rahman</span>
           </h1>
-          <MdWavingHand size={30} className="text-[#023ca8]" />
+          <MdWavingHand size={30} className="text-white" />
         </div>
-        <p className="text-xl md:text-2xl font-semibold mt-4">
+        <p className="text-xl md:text-2xl font-semibold mt-4 text-white">
           A Brand & Marketing Specialist
         </p>
       </div>
